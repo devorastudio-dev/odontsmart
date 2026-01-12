@@ -23,7 +23,7 @@ export default function Location() {
         
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Map */}
-          <div className="bg-white rounded-3xl overflow-hidden shadow-lg h-112.5 lg:h-auto">
+          <div className="bg-white rounded-3xl overflow-hidden shadow-lg aspect-[4/3] lg:h-auto">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.976792547674!2d-43.93706782488056!3d-19.9208309814125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e54c048f9b%3A0x3b8a3a8c0c8c0c8c!2sAv.%20Afonso%20Pena%2C%202000%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
               width="100%"
