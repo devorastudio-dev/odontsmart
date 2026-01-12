@@ -23,7 +23,7 @@ export default function Location() {
         
         <div className="grid lg:grid-cols-2 gap-8">
           {/* Map */}
-          <div className="bg-white rounded-3xl overflow-hidden shadow-lg h-[450px] lg:h-auto">
+          <div className="bg-white rounded-3xl overflow-hidden shadow-lg h-112.5 lg:h-auto">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3750.976792547674!2d-43.93706782488056!3d-19.9208309814125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa699e54c048f9b%3A0x3b8a3a8c0c8c0c8c!2sAv.%20Afonso%20Pena%2C%202000%20-%20Centro%2C%20Belo%20Horizonte%20-%20MG!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr"
               width="100%"
@@ -41,7 +41,7 @@ export default function Location() {
             {/* Address */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center shrink-0">
                   <MapPin className="w-6 h-6 text-primary" />
                 </div>
                 <div>
@@ -66,7 +66,7 @@ export default function Location() {
             {/* Phone */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center shrink-0">
                   <Phone className="w-6 h-6 text-green-600" />
                 </div>
                 <div>
@@ -95,7 +95,7 @@ export default function Location() {
             {/* Hours */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-amber-100 rounded-xl flex items-center justify-center shrink-0">
                   <Clock className="w-6 h-6 text-amber-600" />
                 </div>
                 <div>
@@ -123,7 +123,7 @@ export default function Location() {
               <h3 className="font-semibold text-gray-800 mb-4">Como Chegar</h3>
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-start gap-3">
-                  <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-blue-100 rounded-lg flex items-center justify-center shrink-0">
                     <Car className="w-5 h-5 text-blue-600" />
                   </div>
                   <div>
@@ -132,7 +132,7 @@ export default function Location() {
                   </div>
                 </div>
                 <div className="flex items-start gap-3">
-                  <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <div className="w-10 h-10 bg-green-100 rounded-lg flex items-center justify-center shrink-0">
                     <Bus className="w-5 h-5 text-green-600" />
                   </div>
                   <div>
@@ -146,7 +146,7 @@ export default function Location() {
             {/* Email */}
             <div className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-purple-100 rounded-xl flex items-center justify-center shrink-0">
                   <Mail className="w-6 h-6 text-purple-600" />
                 </div>
                 <div>
