@@ -4,7 +4,7 @@ import { MapPin, Phone, Clock, Mail, ChevronRight, Car, Bus } from "lucide-react
 
 export default function Location() {
   return (
-    <section className="py-20 bg-surface border border-b-black/01">
+    <section className="py-20 bg-surface">
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-16">

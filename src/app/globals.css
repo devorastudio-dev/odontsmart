@@ -41,6 +41,7 @@ body {
   color: var(--foreground);
   font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  border: black 0px solid;
 }
 
 /* Custom Animations */
