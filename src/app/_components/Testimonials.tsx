@@ -117,7 +117,7 @@ export default function Testimonials() {
         </div>
         
         {/* Before/After Section */}
-        <div className="bg-linear-to-r from-primary to-primary-dark rounded-3xl p-8 md:p-12">
+        <div className="bg-gradient-to-r from-primary to-primary-dark rounded-3xl p-8 md:p-12">
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="text-white">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">
@@ -128,7 +128,7 @@ export default function Testimonials() {
                 autorizaram a divulgação das imagens após a conclusão do tratamento.
               </p>
               <div className="flex flex-wrap items-center gap-4">
-                <div className="flex -space-x-3">
+                <div className="flex -space-x-2">
                   {[1, 2, 3, 4].map((i) => (
                     <div key={i} className="w-12 h-12 rounded-full border-2 border-primary-dark overflow-hidden bg-white/20">
                       <Image 

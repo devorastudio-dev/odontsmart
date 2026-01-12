@@ -28,7 +28,7 @@ export default function Trust() {
     <section className="py-16 bg-surface">
       <div className="container mx-auto px-4">
         {/* Trust Badges */}
-        <div className="flex flex-wrap justify-center gap-8 mb-12">
+        <div className="flex flex-wrap justify-center gap-4 md:gap-8 mb-12">
           <div className="flex items-center gap-3 bg-white rounded-2xl px-6 py-4 shadow-lg hover:shadow-xl transition-shadow">
             <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center">
               <Award className="w-6 h-6 text-amber-600" />
