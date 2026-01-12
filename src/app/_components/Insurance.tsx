@@ -40,11 +40,11 @@ export default function Insurance() {
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">
             Convênios
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-4 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mt-4 mb-4">
             Planes e Convênios<br />
             <span className="text-gradient">que aceitamos</span>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-400 max-w-2xl mx-auto">
             Facilitamos o seu atendimento com os principais convênios odontológicos 
             de Belo Horizonte e região.
           </p>

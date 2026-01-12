@@ -60,11 +60,11 @@ export default function Services() {
           <span className="text-primary font-semibold text-sm uppercase tracking-wider">
             Nossos Tratamentos
           </span>
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mt-4 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mt-4 mb-4">
             Tudo que você precisa para<br />
             <span className="text-gradient">um sorriso perfeito em BH</span>
           </h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <p className="text-gray-400 max-w-2xl mx-auto">
             Oferecemos tratamentos odontológicos completos com tecnologia de ponta 
             e atendimento humanizado para toda a família em Belo Horizonte.
           </p>
