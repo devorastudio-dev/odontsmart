@@ -41,7 +41,7 @@ export default function Insurance() {
             Convênios
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-gray-600 mt-4 mb-4">
-            Planes e Convênios<br />
+            Planos e Convênios<br />
             <span className="text-gradient">que aceitamos</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
